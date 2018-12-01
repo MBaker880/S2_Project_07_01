@@ -43,7 +43,17 @@ article {
    ============================================
 */
 
-
+@media only screen and (max-width: 480px) {
+    .panel {
+        width: 100%;
+    }
+    .horizontal {
+        order: 99;
+    }
+    body > footer {
+        order: 100;
+    }
+}
 
 
 /* ===================================================
